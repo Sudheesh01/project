@@ -27,7 +27,7 @@ st.title('Music Emotion Classification')
 # Display feature ranges
 st.header('Feature Ranges')
 # Assuming you still have access to the original dataset for feature ranges
-df = pd.read_csv(r'X:\microsoft edge downloads\turkish+music+emotion\Acoustic Features.csv')
+df = pd.read_csv(r'Acoustic Features.csv')
 feature_ranges = {
     feature: {'min': df[feature].min(), 'max': df[feature].max()} for feature in features
 }
